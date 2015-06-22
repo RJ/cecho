@@ -20,8 +20,8 @@
 -author('mazen.harake@gmail.com').
 
 -behaviour(application).
--include("include/cecho.hrl").
--include("include/cecho_commands.hrl").
+-include("cecho.hrl").
+-include("cecho_commands.hrl").
 
 %% Behaviour Callbacks
 -export([start/2, stop/1]).
